@@ -1,0 +1,70 @@
+body{
+    background: #ffcc00;/*color de fondo*/ 
+    background-repeat: no-repeat;/*no repetir fondo*/ 
+    background-size: cover;/*cubrir el fondo*/
+    background-image:url("fondo4.gif");/*imagen de fondo*/
+}
+#seccionparaformulario{
+    margin-top: 100px;/*margen seperior*/
+    margin-bottom:100px;/*margen inferior*/
+    display: flex;/*ordenar verticalmente el contenido*/
+    align-items: center;/*alinear el contenido al centro*/
+    justify-content: right;/*justificar el contenido al centro*/
+    padding: 10px;/*margen interior de los cuatro lados*/
+    background:rgba(0, 0, 255, 0.2);
+}
+#formulario{
+    background-color: rgba(0, 0, 0, 0.5);/*color de fondo*/
+    width: 100%px;/*ancho de formulario*/
+    height: auto;/*alto de formulario*/
+    border-radius: 20%;/*borde de radio*/
+    padding: 20px;/*borde interior de formulario*/
+    box-shadow: 0px 0px 70px 100px # ;/*sombra de formulario*/
+    text-align: center;/*alinear el texto*/
+}
+#imgusuario{ /*imagen de osuario en la parte superior del formulario*/
+    margin-top: -120px;/*margen superior*/
+    width: 120px;
+    height: 100px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 0px 3px #009900;
+
+}
+#iconousuario{
+    position: absolute;
+    padding-top: 7px;
+    padding-left: 5px;
+    width: 30px;
+    height: 30px;
+
+}
+#iconousuario1{
+    position: absolute;
+    padding-top: 7px;
+    padding-left: 5px;
+    width: 30px;
+    height: 30px;
+
+}
+
+
+.cajas{
+    width: 200px;
+    height: 45px;
+    border-radius: 4px;
+    padding-left: 60px;
+    font-size: 20px;
+    font-family: arial;
+}
+
+
+
+#botoniniciarsesion{
+    width: 100px;
+    height: 50px;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: #117cd2;
+    color: #fff;
+
+}
